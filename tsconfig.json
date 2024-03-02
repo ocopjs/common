@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "commonjs",
+    "esModuleInterop": true,
     "declaration": true,
     "declarationMap": true, // Avoids generating .d.mts files
     "removeComments": true,

@@ -4,11 +4,11 @@ export class BaseOcopAdapter {
   config?: any;
   listAdapters?: any;
   listAdapterClass?: any;
-  async _create(..._args: any) { }
-  async _update(..._args: any) { }
-  async _delete(..._args: any) { }
-  async disconnect(..._args: any) { }
-  async _connect(..._args: any) { }
+  async _create(..._args: any) {}
+  async _update(..._args: any) {}
+  async _delete(..._args: any) {}
+  async disconnect(..._args: any) {}
+  async _connect(..._args: any) {}
 
   constructor(config = {}) {
     this.config = { ...config };
@@ -70,7 +70,7 @@ export class BaseOcopAdapter {
     return [];
   }
 
-  async checkDatabaseVersion() { }
+  async checkDatabaseVersion() {}
 }
 
 export class BaseListAdapter {
@@ -82,9 +82,9 @@ export class BaseListAdapter {
   preSaveHooks?: any[];
   postReadHooks?: any[];
 
-  async _create(..._args: any) { }
-  async _update(..._args: any) { }
-  async _delete(..._args: any) { }
+  async _create(..._args: any) {}
+  async _update(..._args: any) {}
+  async _delete(..._args: any) {}
   async _itemsQuery(..._args: any): Promise<any[]> {
     return [];
   }
@@ -179,7 +179,7 @@ export class BaseListAdapter {
   async find(condition: any) {
     return Promise.all(
       (await this._itemsQuery({ where: condition })).map((item: any) =>
-        this.onPostRead(item)
+        this.onPostRead(item),
       ),
     );
   }
@@ -235,5 +235,5 @@ export class BaseFieldAdapter {
     this.dbPath = path;
   }
 
-  setupHooks() { }
+  setupHooks() {}
 }

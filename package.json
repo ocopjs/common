@@ -27,10 +27,9 @@
   "engines": {
     "node": "16"
   },
-  "dependencies": {
-    "p-waterfall": "^3.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "p-waterfall": "^3.0.0",
     "@semantic-release/commit-analyzer": "^11.1.0",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^9.2.6",
