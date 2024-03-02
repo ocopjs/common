@@ -1,6 +1,6 @@
 import pWaterfall from "p-waterfall";
 
-export class BaseBuonAdapter {
+export class BaseOcopAdapter {
   config?: any;
   listAdapters?: any;
   listAdapterClass?: any;
@@ -46,7 +46,7 @@ export class BaseBuonAdapter {
       if (errors.length) {
         if (errors.length === 1) throw errors[0];
         const error = new Error(
-          "Multiple errors in BaseBuonAdapter.postConnect():",
+          "Multiple errors in BaseOcopAdapter.postConnect():",
         ) as any;
         error.errors = errors;
         throw error;
