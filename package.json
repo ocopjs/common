@@ -1,7 +1,7 @@
 {
   "name": "@ocopjs/common",
   "description": "Các lớp, hàm dùng chung không phụ thuộc vào các gói nội bộ khác của @ocopjs. 🇻🇳",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "ocopjs",
   "scripts": {
     "format": "prettier --write \"**/*.{ts,tsx,md,js}\"",
