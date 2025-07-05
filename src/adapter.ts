@@ -1,5 +1,7 @@
 import pWaterfall from "p-waterfall";
 
+export { pWaterfall };
+
 export class BaseOcopAdapter {
   config?: any;
   listAdapters?: any;
