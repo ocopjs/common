@@ -23,9 +23,6 @@ importers:
       '@semantic-release/release-notes-generator':
         specifier: ^12.1.0
         version: 12.1.0(semantic-release@23.1.1(typescript@5.8.3))
-      '@types/semver':
-        specifier: ^7.5.8
-        version: 7.7.0
       husky:
         specifier: ^9.1.7
         version: 9.1.7
@@ -812,9 +809,6 @@ packages:
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
-
-  '@types/semver@7.7.0':
-    resolution: {integrity: sha512-k107IF4+Xr7UHjwDc7Cfd6PRQfbdkiRabXGRjo07b4WyPahFBZCZ1sE+BNxYIJPPg73UkfOsVOLwqVc/6ETrIA==}
 
   '@types/stack-utils@2.0.3':
     resolution: {integrity: sha512-9aEbYZ3TbYMznPdcdr3SmIrLXwC/AKZXQeCf9Pgao5CKb8CyHuEX5jzWPTkvregvhRJHcpRO6BFoGW9ycaOkYw==}
@@ -3604,8 +3598,6 @@ snapshots:
       undici-types: 7.8.0
 
   '@types/normalize-package-data@2.4.4': {}
-
-  '@types/semver@7.7.0': {}
 
   '@types/stack-utils@2.0.3': {}
 
