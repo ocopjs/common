@@ -14,7 +14,7 @@ Chúng tôi hoan nghênh mọi đóng góp! Vui lòng đọc [hướng dẫn đ�
 
 ## Lời cảm ơn
 
-Cảm ơn cộng đồng KeystoneJS đã cung cấp nền tảng vững chắc cho dự án này.
+Cảm ơn KeystoneJS đã cung cấp nền tảng vững chắc cho dự án này.
 
 ## Hỗ trợ
 
