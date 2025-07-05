@@ -76,11 +76,11 @@ export class BaseOcopAdapter {
 export class BaseListAdapter {
   key?: any;
   parentAdapter?: any;
-  fieldAdapters?: any[];
+  fieldAdapters: any[];
   fieldAdaptersByPath?: any;
   config?: any;
-  preSaveHooks?: any[];
-  postReadHooks?: any[];
+  preSaveHooks: any[];
+  postReadHooks: any[];
 
   async _create(..._args: any) {}
   async _update(..._args: any) {}
