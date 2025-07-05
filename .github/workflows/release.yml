@@ -18,15 +18,15 @@ jobs:
       id-token: write # to enable use of OIDC for npm provenance
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v4
         with:
-          version: 8.15.4
+          version: 10.12.4
       - name: Setup Node.js version 20
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: "pnpm"
@@ -34,11 +34,6 @@ jobs:
         run: pnpm install
       - name: 📦 Build package
         run: pnpm run build
-      - name: Setup Node.js version 20
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20
-          cache: "pnpm"
       - name: ⚙️ Install dependencies --dev
         run: pnpm install --dev
       - name: 🚀 Release package
